@@ -1,0 +1,2230 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2491030920</fileChecksum>
+  <configuration>
+    <name>Flash Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_spi.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_usart.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_usart.i</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_adc.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\plmodem_serial.o</file>
+      <file>$PROJ_DIR$\Flash Debug\List\flash.i</file>
+      <file>$PROJ_DIR$\Flash Debug\List\misc_io.i</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\sci_main_app.c</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\misc_io.pbi</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\spi_agent.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_exti.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\List\FreeRTOS_DHCP.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\FreeRTOS_DNS.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\scic-ehdw-01.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\FreeRTOS_DHCP.o</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_it.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\timers.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\FreeRTOS_DHCP.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\queue.o</file>
+      <file>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\include\FreeRTOSIPConfig.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\spi3_agent.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\debug_serial.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\queue.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lcd_bitmaps.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\debug_serial.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\port.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\comms_protocol.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\spi1_agent.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_syscfg.i</file>
+      <file>$PROJ_DIR$\Flash Debug\List\main_app.lst</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\ethernet_ksz8873rl_driver.c</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\sci_main_app.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_rcc.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\plmodem_driver.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Flash Debug\List\plmodem_driver.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\List\tempprobe.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\List\scic-ehdw-01.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\List\plmodem_serial.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_syscfg.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\startup_stm32f4xx.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_adc.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\NetworkInterface.pbi</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\modbus_driver_test.c</file>
+      <file>$PROJ_DIR$\Flash Debug\List\timers.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lcd_NHD-C12864A1Z.o</file>
+      <file>$PROJ_DIR$\Flash Debug\List\comms_protocol.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\List\modbus_driver_test.lst</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\boardtest.h</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\modbusCRC.c</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\lcd_bitmaps.h</file>
+      <file>$PROJ_DIR$\libraries\eie_st32m4_qi\source\utilities.c</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_exti.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\List\plmodem_driver.i</file>
+      <file>$PROJ_DIR$\Flash Debug\List\system_stm32f4xx.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\List\lcd_NHD-C12864A1Z.i</file>
+      <file>$PROJ_DIR$\Flash Debug\List\system_io.lst</file>
+      <file>$PROJ_DIR$\libraries\CMSIS\include\stm32f4xx.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\port.o</file>
+      <file>$PROJ_DIR$\libraries\eie_st32m4_qi\include\boardtest.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\system_stm32f4xx.i</file>
+      <file>$PROJ_DIR$\Flash Debug\List\FreeRTOS_Sockets.i</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\modbus_driver_test.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\ethernet_ksz8873rl_driver.pbi</file>
+      <file>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\include\FreeRTOSIPConfigDefaults.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\ethernet_peripheral_driver.o</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_gpio.i</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\ethernet_ksz8873rl_driver.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\List\boardtest.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_syscfg.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\misc.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\main_app.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\List\ethernet_peripheral_driver.i</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\ethernet_peripheral_driver.c</file>
+      <file>$PROJ_DIR$\Flash Debug\List\FreeRTOS_Sockets.lst</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\modbus.c</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_gpio.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_rcc.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_tim.o</file>
+      <file>$PROJ_DIR$\Flash Debug\List\ethernet_ksz8873rl_driver.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\tasks.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\spi1_agent.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\boardtest.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\plmodem.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\NetworkInterface.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lcd_bitmaps.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\BufferAllocation_2.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\utilities.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\list.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\boardtest.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Exe\SCI.out</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\comms_protocol.c</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\m4qidb-pcb-01.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\spi3_agent.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\List\utilities.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\system_io.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_adc.o</file>
+      <file>$PROJ_DIR$\Flash Debug\List\lcd_NHD-C12864A1Z.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\m4qidb-pcb-01.o</file>
+      <file>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\include\NetworkInterface.h</file>
+      <file>$PROJ_DIR$\rtos\include\portmacro.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_gpio.h</file>
+      <file>$PROJ_DIR$\..\rtos\include\mpu_wrappers.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\modbus_driver.pbi</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\lcd_bitmaps.c</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_adc.lst</file>
+      <file>$PROJ_DIR$\..\libraries\eie_st32m4_qi\include\typedefs.h</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_i2c.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\ethernet_handler.i</file>
+      <file>$PROJ_DIR$\stm32f4xx_flash.icf</file>
+      <file>$PROJ_DIR$\rtos\include\semphr.h</file>
+      <file>$PROJ_DIR$\rtos\include\timers.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_it.h</file>
+      <file>$PROJ_DIR$\..\libraries\eie_st32m4_qi\source\main.c</file>
+      <file>$PROJ_DIR$\Flash Debug\List\plmodem_serial.i</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\misc.c</file>
+      <file>$PROJ_DIR$\rtos\source\heap_4.c</file>
+      <file>$PROJ_DIR$\..\libraries\CMSIS\source\Templates\iar\startup_stm32f4xx.s</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_syscfg.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\flash.o</file>
+      <file>$PROJ_DIR$\rtos\source\timers.c</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\typedefs.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_dac.c</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_exti.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_dma.h</file>
+      <file>$PROJ_DIR$\..\libraries\eie_st32m4_qi\source\utilities.c</file>
+      <file>$PROJ_DIR$\..\libraries\CMSIS\include\system_stm32f4xx.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_syscfg.c</file>
+      <file>$PROJ_DIR$\rtos\source\list.c</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_flash.h</file>
+      <file>$PROJ_DIR$\rtos\source\port.c</file>
+      <file>$PROJ_DIR$\libraries\CMSIS\source\Templates\iar\startup_stm32f4xx.s</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_conf.h</file>
+      <file>$PROJ_DIR$\..\libraries\eie_st32m4_qi\include\boardtest.h</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_spi.c</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_tim.h</file>
+      <file>$PROJ_DIR$\rtos\include\portable.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_adc.c</file>
+      <file>$PROJ_DIR$\..\rtos\include\list.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_exti.c</file>
+      <file>$PROJ_DIR$\..\libraries\eie_st32m4_qi\include\configuration.h</file>
+      <file>$PROJ_DIR$\..\libraries\eie_st32m4_qi\source\misc_io.c</file>
+      <file>$PROJ_DIR$\..\libraries\eie_st32m4_qi\include\utilities.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\misc.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_usart.c</file>
+      <file>$PROJ_DIR$\..\libraries\eie_st32m4_qi\source\m4qidb-pcb-01.c</file>
+      <file>$PROJ_DIR$\rtos\include\queue.h</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_gpio.c</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\arm_comm.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_adc.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_iwdg.h</file>
+      <file>$PROJ_DIR$\libraries\eie_st32m4_qi\source\debug_serial.c</file>
+      <file>$PROJ_DIR$\rtos\include\FreeRTOSConfig.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_spi.h</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_syscfg.h</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_spi.h</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_usart.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_dcmi.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\modbus.i</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_dbgmcu.h</file>
+      <file>$PROJ_DIR$\rtos\include\flash.h</file>
+      <file>$PROJ_DIR$\rtos\include\projdefs.h</file>
+      <file>$PROJ_DIR$\rtos\include\list.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4x7_eth_conf.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_gpio.c</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\configuration.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\crc.pbi</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_rcc.c</file>
+      <file>$PROJ_DIR$\rtos\source\tasks.c</file>
+      <file>$PROJ_DIR$\rtos\source\queue.c</file>
+      <file>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\FreeRTOS_UDP_IP.c</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_pwr.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_rtc.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4x7_eth.h</file>
+      <file>$PROJ_DIR$\rtos\source\portasm.s</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_tim.c</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\plmodem_driver.c</file>
+      <file>$PROJ_DIR$\..\libraries\CMSIS\source\Templates\system_stm32f4xx.c</file>
+      <file>$PROJ_DIR$\rtos\source\flash.c</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_usart.c</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_wwdg.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_dac.h</file>
+      <file>$PROJ_DIR$\..\libraries\eie_st32m4_qi\include\m4qidb-pcb-01.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_it.c</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_rcc.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_spi.c</file>
+      <file>$PROJ_DIR$\rtos\include\task.h</file>
+      <file>$PROJ_DIR$\..\libraries\CMSIS\include\stm32f4xx.h</file>
+      <file>$PROJ_DIR$\rtos\include\mpu_wrappers.h</file>
+      <file>$PROJ_DIR$\..\libraries\eie_st32m4_qi\source\debug_serial.c</file>
+      <file>$PROJ_DIR$\rtos\include\FreeRTOS.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_rng.h</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\plmodem.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_dac.i</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_i2c.h</file>
+      <file>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_usart.h</file>
+      <file>$PROJ_DIR$\..\libraries\eie_st32m4_qi\include\debug_serial.h</file>
+      <file>$PROJ_DIR$\..\libraries\eie_st32m4_qi\source\boardtest.c</file>
+      <file>$PROJ_DIR$\..\libraries\eie_st32m4_qi\include\misc_io.h</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_dma.h</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\spi_agent.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_dac.lst</file>
+      <file>$PROJ_DIR$\..\rtos\include\timers.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\protocol_xxr.i</file>
+      <file>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\BufferAllocation_2.c</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\flash.pbi</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\modbusCRC.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\tasks.i</file>
+      <file>$PROJ_DIR$\..\rtos\include\semphr.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\FreeRTOS_Sockets.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\misc.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_it.pbi</file>
+      <file>$PROJ_DIR$\..\libraries\eie_st32m4_qi\include\main_app.h</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\protocol_xxr.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\misc.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\crc.o</file>
+      <file>$PROJ_DIR$\..\rtos\include\queue.h</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\debug_serial.c</file>
+      <file>$PROJ_DIR$\Flash Debug\List\plmodem.i</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm4_simd.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\comms_protocol.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\FreeRTOS_Sockets.pbi</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\system_io.c</file>
+      <file>$PROJ_DIR$\libraries\eie_st32m4_qi\source\spi_agent.c</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\utilities.c</file>
+      <file>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\include\FreeRTOS_IP_Private.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\debug_serial.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Exe\eie_st32m4_qi.hex</file>
+      <file>$PROJ_DIR$\libraries\eie_st32m4_qi\include\spi_agent.h</file>
+      <file>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\include\FreeRTOS_DNS.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4x7_eth.c</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\plmodem_serial.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\system_io.o</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\comms_protocol.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_exti.o</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\scic-ehdw-01.c</file>
+      <file>$PROJ_DIR$\Flash Debug\List\modbus_driver.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\timers.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\misc_io.o</file>
+      <file>$PROJ_DIR$\libraries\eie_st32m4_qi\source\testing.c</file>
+      <file>$PROJ_DIR$\Flash Debug\List\NetworkInterface.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\List\spi3_agent.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\spi_agent.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\List\ethernet_peripheral_driver.lst</file>
+      <file>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\FreeRTOS_DNS.c</file>
+      <file>$PROJ_DIR$\Flash Debug\List\FreeRTOS_DHCP.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\tempprobe.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\List\m4qidb-pcb-01.i</file>
+      <file>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\FreeRTOS_Sockets.c</file>
+      <file>$PROJ_DIR$\Flash Debug\List\system_io.i</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\lcd_NHD-C12864A1Z.c</file>
+      <file>$PROJ_DIR$\Flash Debug\List\queue.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_spi.o</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\modbus_driver.c</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\plmodem.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\buttons.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\List\spi_agent.lst</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\modbus_driver_test.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_usart.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_it.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_spi.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_tim.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\ethernet_ksz8873rl_driver.o</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\ethernet_handler.c</file>
+      <file>$PROJ_DIR$\Flash Debug\List\BufferAllocation_2.i</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\tempprobe.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Exe\SCI.hex</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\debug_serial.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\spi2_agent.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_dac.pbi</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm4.h</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\modbus_driver.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\scic-ehdw-01.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\modbusCRC.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\List\utilities.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\BufferAllocation_2.pbi</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\lcd_NHD-C12864A1Z.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\spi2_agent.i</file>
+      <file>$PROJ_DIR$\Flash Debug\List\spi3_agent.i</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_gpio.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_gpio.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_tim.pbi</file>
+      <file>$PROJ_DIR$\..\rtos\include\FreeRTOS.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\crc.i</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\system_io.h</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\ethernet_handler.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4x7_eth.i</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\main_app.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\system_stm32f4xx.o</file>
+      <file>$PROJ_DIR$\Flash Debug\List\main.i</file>
+      <file>$PROJ_DIR$\Flash Debug\List\misc.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\protocol_xxr.pbi</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\plmodem_serial.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\buttons.o</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_tim.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\modbus_driver_test.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\tasks.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\tempprobe.o</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\buttons.c</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\spi1_agent.c</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\plmodem_driver_test.h</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\ethernet_peripheral_driver.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\port.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\testing.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\main_app.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\comms_protocol.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tlv.a</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\spi2_agent.pbi</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\tempprobe.c</file>
+      <file>$PROJ_DIR$\..\rtos\include\task.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\NetworkInterface.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\testing.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\List\lcd_bitmaps.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\utilities.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\debug_serial.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4x7_eth.o</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Flash Debug\List\tempprobe.i</file>
+      <file>$PROJ_DIR$\Flash Debug\List\FreeRTOS_UDP_IP.lst</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\modbus.h</file>
+      <file>$PROJ_DIR$\..\rtos\include\projdefs.h</file>
+      <file>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\include\FreeRTOS_UDP_IP.h</file>
+      <file>$PROJ_DIR$\..\rtos\include\FreeRTOSConfig.h</file>
+      <file>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\include\IPTraceMacroDefaults.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\spi1_agent.i</file>
+      <file>$PROJ_DIR$\Flash Debug\List\plmodem.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\List\list.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\ethernet_handler.o</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\crc.h</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\plmodem.c</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_usart.o</file>
+      <file>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\include\FreeRTOS_DHCP.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\modbusCRC.i</file>
+      <file>$PROJ_DIR$\Flash Debug\List\FreeRTOS_DNS.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\spi_agent.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lcd_NHD-C12864A1Z.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_rcc.o</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_syscfg.lst</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_wwdg.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Exe\eie_st32m4_qi.out</file>
+      <file>$PROJ_DIR$\Flash Debug\List\sci_main_app.i</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\spi3_agent.c</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\heap_4.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\system_stm32f4xx.pbi</file>
+      <file>$PROJ_DIR$\libraries\eie_st32m4_qi\source\m4qidb-pcb-01.c</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_syscfg.c</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\misc_io.h</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\scic-ehdw-01.h</file>
+      <file>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\include\FreeRTOS_Sockets.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\plmodem_driver.o</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4x7_eth.h</file>
+      <file>$PROJ_DIR$\..\rtos\include\flash.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_exti.i</file>
+      <file>$PROJ_DIR$\libraries\eie_st32m4_qi\source\boardtest.c</file>
+      <file>$PROJ_DIR$\libraries\CMSIS\include\system_stm32f4xx.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_dac.o</file>
+      <file>$PROJ_DIR$\libraries\eie_st32m4_qi\include\typedefs.h</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_rcc.c</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\misc_io.c</file>
+      <file>$PROJ_DIR$\libraries\eie_st32m4_qi\include\m4qidb-pcb-01.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\protocol_xxr.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\modbus.pbi</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\utilities.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\modbusCRC.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\spi2_agent.o</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\plmodem_serial.c</file>
+      <file>$PROJ_DIR$\Flash Debug\List\sci_main_app.lst</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_dcmi.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_spi.i</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_tim.c</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_exti.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\scic-ehdw-01.i</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_gpio.h</file>
+      <file>$PROJ_DIR$\libraries\eie_st32m4_qi\include\misc_io.h</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_exti.c</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_it.c</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\FreeRTOS_DHCP.c</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_conf.h</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_dbgmcu.h</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_dac.c</file>
+      <file>$PROJ_DIR$\Flash Debug\List\modbus_driver.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\protocol_xxr.o</file>
+      <file>$PROJ_DIR$\libraries\eie_st32m4_qi\include\utilities.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\buttons.lst</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\protocol_xxr.c</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\portasm.o</file>
+      <file>$PROJ_DIR$\Flash Debug\List\ethernet_handler.lst</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_iwdg.h</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\spi2_agent.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\sci_main_app.pbi</file>
+      <file>$PROJ_DIR$\libraries\eie_st32m4_qi\include\debug_serial.h</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_tim.h</file>
+      <file>$PROJ_DIR$\..\rtos\include\portable.h</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_rcc.h</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_rtc.h</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\main.c</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\ethernet_handler.pbi</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_pwr.h</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4x7_eth_conf.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\buttons.i</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\heap_4.o</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+      <file>$PROJ_DIR$\Flash Debug\List\main_app.i</file>
+      <file>$PROJ_DIR$\Flash Debug\List\modbus_driver_test.i</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\main_app.c</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_rng.h</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_dac.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\plmodem_driver.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\FreeRTOS_UDP_IP.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\List\FreeRTOS_DNS.i</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\misc.c</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\source\crc.c</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\misc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\FreeRTOS_UDP_IP.o</file>
+      <file>$PROJ_DIR$\Flash Debug\List\crc.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\FreeRTOS_DNS.o</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_flash.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4x7_eth.pbi</file>
+      <file>$PROJ_DIR$\libraries\CMSIS\source\Templates\system_stm32f4xx.c</file>
+      <file>$PROJ_DIR$\Flash Debug\List\heap_4.i</file>
+      <file>$PROJ_DIR$\Flash Debug\List\lcd_bitmaps.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\List\FreeRTOS_UDP_IP.i</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\arm_comm.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\modbusCRC.o</file>
+      <file>$PROJ_DIR$\libraries\eie_st32m4_qi\include\configuration.h</file>
+      <file>$PROJ_DIR$\libraries\sci_proprietary\include\ethernet_ksz8873rl_driver.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\ethernet_peripheral_driver.pbi</file>
+      <file>$PROJ_DIR$\libraries\eie_st32m4_qi\source\misc_io.c</file>
+      <file>$PROJ_DIR$\..\rtos\include\portmacro.h</file>
+      <file>$PROJ_DIR$\libraries\eie_st32m4_qi\include\main_app.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\boardtest.lst</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\include\stm32f4xx_adc.h</file>
+      <file>$PROJ_DIR$\Flash Debug\List\BufferAllocation_2.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\list.o</file>
+      <file>$PROJ_DIR$\Flash Debug\List\stm32f4xx_it.i</file>
+      <file>$PROJ_DIR$\Flash Debug\List\main.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\List\eie_st32m4_qi.map</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\stm32f4xx_rcc.pbi</file>
+      <file>$PROJ_DIR$\libraries\eie_st32m4_qi\source\main.c</file>
+      <file>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\NetworkInterface.c</file>
+      <file>$PROJ_DIR$\Flash Debug\List\startup_stm32f4xx.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\List\misc_io.lst</file>
+      <file>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_adc.c</file>
+      <file>$PROJ_DIR$\Flash Debug\List\m4qidb-pcb-01.lst</file>
+      <file>$PROJ_DIR$\Flash Debug\List\spi1_agent.lst</file>
+      <file>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\include\NetworkBufferManagement.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\eie_st32m4_qi.pbd</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\sci_main_app.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 408</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 357 383</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\ethernet_ksz8873rl_driver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86 74 275</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\modbus_driver_test.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 422 52 309</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 367 417 446 338 22 70 340 236 365 466 108 306 53 289 211 345 336 284 269 36 298 316 300</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 367 417 446 338 22 70 340 236 365 466 108 306 53 289 211 345 336 284 269 36 298 316 300</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\modbusCRC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 286</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 349 380 444</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 367 417 446 338 22 70 340 236 365 466 108 280 53 289 211 345 336 284 269 36 298 316 300 217</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 367 417 446 338 22 70 340 236 365 466 108 280 53 289 211 345 336 284 269 36 298 316 300 217</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\eie_st32m4_qi\source\utilities.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 329</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 287</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\ethernet_peripheral_driver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 447</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 255 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\modbus.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 378</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Flash Debug\Exe\SCI.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 279</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 118 94 231 226 344 275 71 129 17 436 220 434 419 93 50 454 39 319 221 250 92 91 366 63 403 399 21 285 381 23 45 332 105 372 246 293 271 353 264 44 85 347 302 311 312 249 95 393 333 322 420</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\comms_protocol.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 320</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30 51 231</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 457 356</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\lcd_bitmaps.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 328 441 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\eie_st32m4_qi\source\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 303 456 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 295 185 29 4 426 407 273 330 89 1 337 339 73 411 449 111 325 148 213 219 227 368 158 32 198 283 11 321 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 128 145 206 191 153 150 433 241 301 115 192 159 193 209 152 207 223 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 295 185 29 4 426 407 273 330 89 1 337 339 73 411 449 111 325 148 213 219 227 368 158 32 198 283 11 321 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 128 145 206 191 153 150 433 241 301 115 192 159 193 209 152 207 223 143</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\misc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 225 304 221</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 153 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 128 145 206 191</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 128 145 206 191</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rtos\source\heap_4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 359</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 440 419</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\CMSIS\source\Templates\iar\startup_stm32f4xx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 45 461</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rtos\source\timers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49 249</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_dac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 282</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 204 212 372</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 192 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 128 145 206 191 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 192 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 128 145 206 191 153</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\eie_st32m4_qi\source\utilities.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 329</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 287 103 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 433 29 4 426 407 273 330 89 1 241 301 115 295 185 337 339 73 411 449 111 325 148 213 219 227 110 198 283 11 321 32 67 230 136 142 169 167 134 133 139 205 160 181 195 202 182 163 128 145 206 191 153 192 159 193 209 152 207 223 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150 433 29 4 426 407 273 330 89 1 241 301 115 295 185 337 339 73 411 449 111 325 148 213 219 227 110 198 283 11 321 32 67 230 136 142 169 167 134 133 139 205 160 181 195 202 182 163 128 145 206 191 153 192 159 193 209 152 207 223 143</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_syscfg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33 354 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 145 206 191 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 145 206 191 153</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rtos\source\list.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 343 454</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rtos\source\port.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 317 63</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\CMSIS\source\Templates\iar\startup_stm32f4xx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 272</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 385</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5 114 105</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 128 145 206 191 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 159 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 128 145 206 191 153</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_exti.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 369 57 246</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 139 110 205 160 181 195 202 182 163 128 145 206 191 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 139 110 205 160 181 195 202 182 163 128 145 206 191 153</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\eie_st32m4_qi\source\misc_io.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8 462 250</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 433 29 4 426 407 273 330 89 1 241 301 115 295 185 337 339 73 411 449 111 325 148 213 219 227 110 198 283 11 321 32 67 230 136 142 169 167 134 133 139 205 160 181 195 202 182 163 128 145 206 191 153 192 159 193 209 152 207 223 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150 433 29 4 426 407 273 330 89 1 241 301 115 295 185 337 339 73 411 449 111 325 148 213 219 227 110 198 283 11 321 32 67 230 136 142 169 167 134 133 139 205 160 181 195 202 182 163 128 145 206 191 153 192 159 193 209 152 207 223 143</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3 270 347</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 206 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 128 145 191 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 206 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 128 145 191 153</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\eie_st32m4_qi\source\m4qidb-pcb-01.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 259 464 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 433 29 4 426 407 273 330 89 1 241 301 115 295 185 337 339 73 411 449 111 325 148 213 219 227 110 198 283 11 321 32 67 230 136 142 169 167 134 133 139 205 160 181 195 202 182 163 128 145 206 191 153 192 159 193 209 152 207 223 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150 433 29 4 426 407 273 330 89 1 241 301 115 295 185 337 339 73 411 449 111 325 148 213 219 227 110 198 283 11 321 32 67 230 136 142 169 167 134 133 139 205 160 181 195 202 182 163 128 145 206 191 153 192 159 193 209 152 207 223 143</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\eie_st32m4_qi\source\debug_serial.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 237</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72 292 293</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 205 160 181 195 202 182 163 128 145 206 191 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 205 160 181 195 202 182 163 128 145 206 191 153</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 458</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 84 353</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 202 182 163 128 145 206 191 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 195 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 202 182 163 128 145 206 191 153</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rtos\source\tasks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 218 311</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rtos\source\queue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 263 21</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\FreeRTOS_UDP_IP.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 428</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 442 335 434</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73 29 4 426 407 273 330 89 175 433 1 241 301 131 201 185 171 162 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278 348</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rtos\source\portasm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 403</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_tim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 294</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 274 308 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 128 206 191 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 128 206 191 153</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\plmodem_driver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58 40 366</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\CMSIS\source\Templates\system_stm32f4xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 360</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 59 302</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 128 145 206 191 153 183 173</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 128 145 206 191 153 183 173</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rtos\source\flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 216</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 129</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 222</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 455 18 271</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 128 145 206 191 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 163 128 145 206 191 153</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 272</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 385 0 264</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 128 145 206 191 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 163 198 283 73 29 4 426 407 273 330 89 11 321 32 67 230 136 142 169 167 134 133 139 110 205 160 181 195 202 182 128 145 206 191 153</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\eie_st32m4_qi\source\debug_serial.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 237 331 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 433 29 4 426 407 273 330 89 1 241 301 115 295 185 337 339 73 411 449 111 325 148 213 219 227 110 198 283 11 321 32 67 230 136 142 169 167 134 133 139 205 160 181 195 202 182 163 128 145 206 191 153 192 159 193 209 152 207 223 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150 433 29 4 426 407 273 330 89 1 241 301 115 295 185 337 339 73 411 449 111 325 148 213 219 227 110 198 283 11 321 32 67 230 136 142 169 167 134 133 139 205 160 181 195 202 182 163 128 145 206 191 153 192 159 193 209 152 207 223 143</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\eie_st32m4_qi\source\boardtest.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75 451 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 433 29 4 426 407 273 330 89 1 241 301 115 295 185 337 339 73 411 449 111 325 148 213 219 227 110 198 283 11 321 32 67 230 136 142 169 167 134 133 139 205 160 181 195 202 182 163 128 145 206 191 153 192 159 193 209 152 207 223 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150 433 29 4 426 407 273 330 89 1 241 301 115 295 185 337 339 73 411 449 111 325 148 213 219 227 110 198 283 11 321 32 67 230 136 142 169 167 134 133 139 205 160 181 195 202 182 163 128 145 206 191 153 192 159 193 209 152 207 223 143</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\BufferAllocation_2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 277 453 94</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73 29 4 426 407 273 330 89 201 185 1 171 162 146 109 199 197 172 119 156 338 22 70 340 236 108 175 433 241 301 131 120 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 365 466 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\debug_serial.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 237 331 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 367 417 446 338 22 70 340 236 365 466 108 280 53 289 211 345 336 284 269 36 298 316 300</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 367 417 446 338 22 70 340 236 365 466 108 280 53 289 211 345 336 284 269 36 298 316 300</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\system_io.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 261 61 244</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 367 417 446 425 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 36 298 316 300 297</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 367 417 446 425 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 36 298 316 300 297</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\eie_st32m4_qi\source\spi_agent.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 254</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12 268 351</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 445 433 29 4 426 407 273 330 89 1 241 301 373 201 185 171 162 73 146 109 199 197 172 120 119 156 165 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 164 410 166 355 432 425 452 376 390 400 409 239 450 64</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 445 433 29 4 426 407 273 330 89 1 241 301 373 201 185 171 162 73 146 109 199 197 172 120 119 156 165 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 164 410 166 355 432 425 452 376 390 400 409 239 450 64</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\utilities.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 329</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 287 103 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4x7_eth.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 438</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 445 433 29 4 426 407 273 330 89 1 241 301 373 201 185 171 162 73 146 109 199 197 172 120 119 156 389 62 283 11 321 32 67 230 371 395 396 384 210 387 437 116 405 416 412 424 413 165 164 410 166 355 432 425 452 376 390 400 409 450 64</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 445 433 29 4 426 407 273 330 89 1 241 301 373 201 185 171 162 73 146 109 199 197 172 120 119 156 389 62 283 11 321 32 67 230 371 395 396 384 210 387 437 116 405 416 412 424 413 165 164 410 166 355 432 425 452 376 390 400 409 450 64</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\scic-ehdw-01.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 388 42 285</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\eie_st32m4_qi\source\testing.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 327</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 318</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\FreeRTOS_DNS.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 429 350 436</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73 29 4 426 407 273 330 89 201 185 1 171 162 146 109 199 197 172 156 120 338 22 70 340 236 240 365 241 301 108</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\FreeRTOS_Sockets.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 232</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66 81 220</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73 29 4 426 407 273 330 89 201 185 1 171 162 146 109 199 197 172 156 119 338 22 70 340 236 365 241 301 466</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\lcd_NHD-C12864A1Z.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 352</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60 106 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\modbus_driver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 248 398</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 367 417 446 338 22 70 340 236 365 466 108 306 53 289 211 345 336 284 269 36 298 316 300</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 367 417 446 338 22 70 340 236 365 466 108 306 53 289 211 345 336 284 269 36 298 316 300</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\ethernet_handler.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 415</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117 404 344</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\buttons.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 267</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 418 401 307</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\spi1_agent.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 341 465 88</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 367 417 446 425 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 36 298 316 300 363</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 367 417 446 425 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 36 298 316 300 363</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\tempprobe.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 258</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 334 41 312</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\plmodem.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 266</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 229 342 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Flash Debug\Exe\eie_st32m4_qi.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 457</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 238</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 118 90 24 129 419 454 107 39 221 250 63 403 21 45 105 372 246 293 271 353 264 44 85 347 302 311 249 95 393 333 322 420</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\spi3_agent.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 253 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\eie_st32m4_qi\source\m4qidb-pcb-01.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 259</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_syscfg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\eie_st32m4_qi\source\boardtest.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 458</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\misc_io.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8 462 250</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\plmodem_serial.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 243</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124 43 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 367 417 446 338 22 70 340 236 365 466 108 306 53 289 211 345 336 284 269 36 298 316 300</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 367 417 446 338 22 70 340 236 365 466 108 306 53 289 211 345 336 284 269 36 298 316 300</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_tim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 294</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 274</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_exti.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 369</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 222</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 455</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\FreeRTOS_DHCP.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14 257 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73 29 4 426 407 273 330 89 201 185 1 171 162 146 109 199 197 172 156 120 338 22 70 340 236 348 365 241 301 108</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_dac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 282</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 204</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\protocol_xxr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 305</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 214 377 399</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 224 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\spi2_agent.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 323</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 290 281 381</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 303 456 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 201 185 29 4 426 407 273 330 89 1 171 162 73 146 109 199 197 172 120 119 156 170 443 32 62 283 11 321 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 175 433 241 301 131 364 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\main_app.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 421 34 319</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\misc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 225</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\crc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 176</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 296 435 226</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 433 29 4 426 407 273 330 89 1 241 301 131 201 185 171 162 73 146 109 199 197 172 120 119 156 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 338 22 70 340 236 365 466 108 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\CMSIS\source\Templates\system_stm32f4xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 360</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\eie_st32m4_qi\source\misc_io.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\eie_st32m4_qi\source\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 303</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\NetworkInterface.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 326 252 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73 29 4 426 407 273 330 89 310 1 121 201 185 171 162 146 109 199 197 172 156 119 338 22 70 340 236 365 241 301 466 108 175 433 131 120 364 62 283 11 321 32 67 230 371 395 396 384 210 387 437 389 116 405 416 412 424 413 165 164 410 166 355 432 379 245 367 417 446 425 452 53 289 211 345 203 427 315 224 298 316 300 363 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\ethernet_ksz8873rl_driver.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\eie_st32m4_qi\source\utilities.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\ethernet_peripheral_driver.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\comms_protocol.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\lcd_bitmaps.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\rtos\source\heap_4.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\rtos\source\timers.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\rtos\source\list.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\rtos\source\port.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_spi.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_gpio.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\eie_st32m4_qi\source\debug_serial.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\rtos\source\tasks.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\rtos\source\queue.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\FreeRTOS_UDP_IP.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\plmodem_driver.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\rtos\source\flash.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_usart.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\BufferAllocation_2.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\eie_st32m4_qi\source\spi_agent.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\utilities.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4x7_eth.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\scic-ehdw-01.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\FreeRTOS_DNS.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\FreeRTOS_Sockets.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\lcd_NHD-C12864A1Z.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\ethernet_handler.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\tempprobe.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\plmodem.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\spi3_agent.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\eie_st32m4_qi\source\m4qidb-pcb-01.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_syscfg.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\eie_st32m4_qi\source\boardtest.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_rcc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\misc_io.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_tim.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_exti.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_it.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\FreeRTOS_DHCP.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_dac.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\protocol_xxr.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\spi2_agent.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\main.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\main_app.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\misc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\sci_proprietary\source\crc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\CMSIS\source\Templates\system_stm32f4xx.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\eie_st32m4_qi\source\misc_io.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\eie_st32m4_qi\source\main.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\FreeRTOS-Plus-UDP\source\NetworkInterface.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\STM32F4xx_StdPeriph_Driver\source\stm32f4xx_adc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\libraries\CMSIS\source\Templates\iar\startup_stm32f4xx.s</name>
+      <tool>AARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\rtos\source\portasm.s</name>
+      <tool>AARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
