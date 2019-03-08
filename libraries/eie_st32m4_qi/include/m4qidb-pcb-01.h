@@ -34,35 +34,16 @@
 
  typedef enum
 {
-  LED_RED0 = 0,
+  LED_RED0   = 0,
   LED_GREEN0 = 1,
-  LED_BLUE0 = 2,
-  LED_RED1 = 3,
+  LED_BLUE0  = 2,
+  LED_RED1   = 3,
   LED_GREEN1 = 4,
-  LED_BLUE1 = 5,
+  LED_BLUE1  = 5,
   TOTAL_LEDS = 6
 } Led_TypeDef;
 
 //#define TOTAL_LEDS		8
-
-
-/*******************************************************************************
-* LCD GPIO TYPEDEFS
-*******************************************************************************/
-
-/* These values index the GPIO configuration arrays in scic_ehdw-01.c */
-typedef enum
-{
-  LCD_CS2 = 0,
-  LCD_SCK2,
-  LCD_MOSI2,
-  LCD_RS,
-  LCD_RESET,
-  LCD_HEAT,
-  LCD_BL_RED,
-  LCD_BL_GRN,
-  LCD_BL_BLU
-} LcdGpio_TypeDef;
 
 
 
@@ -70,11 +51,9 @@ typedef enum
 * BUTTON TYPEDEFS
 *******************************************************************************/
 
-//NEED MODS
-
 typedef enum
 {
-  BUTTON_LEFT = 0,
+  BUTTON_LEFT  = 0,
   BUTTON_RIGHT = 1,
 } Button_TypeDef;
 
@@ -126,29 +105,29 @@ typedef enum
 
 //REGULAR LEDs
 
-#define LED_RED0_PIN                       GPIO_Pin_3
-#define LED_RED0_GPIO_PORT                 GPIOD
-#define LED_RED0_GPIO_CLK                  RCC_AHB1Periph_GPIOD
+#define LED_RED0_PIN                       GPIO_Pin_6
+#define LED_RED0_GPIO_PORT                 GPIOA
+#define LED_RED0_GPIO_CLK                  RCC_AHB1Periph_GPIOA
 
-#define LED_GREEN0_PIN                     GPIO_Pin_2
-#define LED_GREEN0_GPIO_PORT               GPIOD
-#define LED_GREEN0_GPIO_CLK                RCC_AHB1Periph_GPIOD
+#define LED_GREEN0_PIN                     GPIO_Pin_7
+#define LED_GREEN0_GPIO_PORT               GPIOA
+#define LED_GREEN0_GPIO_CLK                RCC_AHB1Periph_GPIOA
 
-#define LED_BLUE0_PIN                      GPIO_Pin_1
-#define LED_BLUE0_GPIO_PORT                GPIOD
-#define LED_BLUE0_GPIO_CLK                 RCC_AHB1Periph_GPIOD
+#define LED_BLUE0_PIN                      GPIO_Pin_4
+#define LED_BLUE0_GPIO_PORT                GPIOC
+#define LED_BLUE0_GPIO_CLK                 RCC_AHB1Periph_GPIOC
 
-#define LED_RED1_PIN                       GPIO_Pin_0
+#define LED_RED1_PIN                       GPIO_Pin_1
 #define LED_RED1_GPIO_PORT                 GPIOE
 #define LED_RED1_GPIO_CLK                  RCC_AHB1Periph_GPIOE
 
-#define LED_GREEN1_PIN                     GPIO_Pin_7
-#define LED_GREEN1_GPIO_PORT               GPIOD
-#define LED_GREEN1_GPIO_CLK                RCC_AHB1Periph_GPIOD
+#define LED_GREEN1_PIN                     GPIO_Pin_0
+#define LED_GREEN1_GPIO_PORT               GPIOE
+#define LED_GREEN1_GPIO_CLK                RCC_AHB1Periph_GPIOE
 
-#define LED_BLUE1_PIN                      GPIO_Pin_4
-#define LED_BLUE1_GPIO_PORT                GPIOD
-#define LED_BLUE1_GPIO_CLK                 RCC_AHB1Periph_GPIOD
+#define LED_BLUE1_PIN                      GPIO_Pin_9
+#define LED_BLUE1_GPIO_PORT                GPIOB
+#define LED_BLUE1_GPIO_CLK                 RCC_AHB1Periph_GPIOB
 
 
 
@@ -157,8 +136,9 @@ typedef enum
 * BUTTON DEFINITIONS
 *******************************************************************************/
 
-#define BUTTONn                    8 //NUMBER OF BUTTONS
+#define BUTTONn                    2 //NUMBER OF BUTTONS
 
+/* BUTTON0 = LEFT */
 #define BUTTON0_PIN                GPIO_Pin_10  /* Bit 10 */
 #define BUTTON0_GPIO_PORT          GPIOD /* base address of GPIOD */
 #define BUTTON0_GPIO_CLK           RCC_AHB1Periph_GPIOD

@@ -76,7 +76,7 @@ int main (void)
 
     vStartvBoardTestTask( BOARDTEST_TASK_PRIORITY );
 
-    // LEDs, buzzer, valves, etc
+    // LEDs, buzzer, etc.
     vStartMiscIOTask ( MISC_IO_TASK_PRIORITY);
 
     /* Start the scheduler. */

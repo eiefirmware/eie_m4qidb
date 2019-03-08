@@ -140,8 +140,7 @@ const GPIOPuPd_TypeDef LCD_GPIO_PUPD[LCD_PINn ] =
  Promises:
  - All GPIO pins required for LCD operation are configured.
  */
-void
-EIE_LCD_GPIO_Init (void)
+void EIE_LCD_GPIO_Init (void)
 {
     GPIO_InitTypeDef GPIO_InitStructure;
 
@@ -332,14 +331,12 @@ EIE_GPIOReset (void)
  * @brief  Configures one LED GPIO.
  * @param  Led: Specifies the Led to be configured.
  *   This parameter can be one of following parameters:
- *     @arg LED_RED,
- *     @arg LED_GREEN,
- *     @arg LED_BLUE,
- *     @arg LED_YELLOW,
- *     @arg LED_HP0,
- *     @arg LED_HP1,
- *     @arg LED_HP2,
- *     @arg LED_HP3
+ *     @arg LED_RED0,
+ *     @arg LED_GREEN0,
+ *     @arg LED_BLUE0,
+ *     @arg LED_RED1,
+ *     @arg LED_GREEN1,
+ *     @arg LED_BLUE1,
  * @retval None
  *****************************************/
 void EIE_LEDInit (Led_TypeDef Led)
@@ -381,14 +378,12 @@ void EIE_LEDInit_All (void)
  * @brief  Turns selected LED On.
  * @param  Led: Specifies the Led to be set on.
  *   This parameter can be one of following parameters:
- *     @arg LED_RED,
- *     @arg LED_GREEN,
- *     @arg LED_BLUE,
- *     @arg LED_YELLOW,
- *     @arg LED_HP0,
- *     @arg LED_HP1,
- *     @arg LED_HP2,
- *     @arg LED_HP3
+ *     @arg LED_RED0,
+ *     @arg LED_GREEN0,
+ *     @arg LED_BLUE0,
+ *     @arg LED_RED1,
+ *     @arg LED_GREEN1,
+ *     @arg LED_BLUE1,
  * @retval None
  *****************************************/
 void EIE_LEDOn (Led_TypeDef Led)
@@ -400,14 +395,12 @@ void EIE_LEDOn (Led_TypeDef Led)
  * @brief  Turns selected LED Off.
  * @param  Led: Specifies the Led to be set off.
  *   This parameter can be one of following parameters:
- *     @arg LED_RED,
- *     @arg LED_GREEN,
- *     @arg LED_BLUE,
- *     @arg LED_YELLOW,
- *     @arg LED_HP0,
- *     @arg LED_HP1,
- *     @arg LED_HP2,
- *     @arg LED_HP3
+ *     @arg LED_RED0,
+ *     @arg LED_GREEN0,
+ *     @arg LED_BLUE0,
+ *     @arg LED_RED1,
+ *     @arg LED_GREEN1,
+ *     @arg LED_BLUE1,
  * @retval None
  *****************************************/
 void EIE_LEDOff (Led_TypeDef Led)
@@ -419,14 +412,12 @@ void EIE_LEDOff (Led_TypeDef Led)
  * @brief  Toggles the selected LED.
  * @param  Led: Specifies the Led to be toggled.
  *   This parameter can be one of following parameters:
- *     @arg LED_RED,
- *     @arg LED_GREEN,
- *     @arg LED_BLUE,
- *     @arg LED_YELLOW,
- *     @arg LED_HP0,
- *     @arg LED_HP1,
- *     @arg LED_HP2,
- *     @arg LED_HP3
+ *     @arg LED_RED0,
+ *     @arg LED_GREEN0,
+ *     @arg LED_BLUE0,
+ *     @arg LED_RED1,
+ *     @arg LED_GREEN1,
+ *     @arg LED_BLUE1,
  * @retval None
  *****************************************/
 void EIE_LEDToggle (Led_TypeDef Led)
@@ -444,14 +435,8 @@ void EIE_LEDToggle (Led_TypeDef Led)
  * @brief  Configures Button GPIO and EXTI Line.
  * @param  Button: Specifies the Button to be configured.
  *   This parameter can be one of following parameters:
- *     @arg BUTTON_WAKEUP: Wakeup Push Button
- *     @arg BUTTON_TAMPER: Tamper Push Button
- *     @arg BUTTON_KEY: Key Push Button
  *     @arg BUTTON_RIGHT: Joystick Right Push Button
  *     @arg BUTTON_LEFT: Joystick Left Push Button
- *     @arg BUTTON_UP: Joystick Up Push Button
- *     @arg BUTTON_DOWN: Joystick Down Push Button
- *     @arg BUTTON_SEL: Joystick Sel Push Button
  * @param  Button_Mode: Specifies Button mode.
  *   This parameter can be one of following parameters:
  *     @arg BUTTON_MODE_GPIO: Button will be used as simple IO
@@ -528,14 +513,8 @@ void EIE_ButtonInit_All (void)
  * @brief  Returns the selected Button state.
  * @param  Button: Specifies the Button to be checked.
  *   This parameter can be one of following parameters:
- *     @arg BUTTON_WAKEUP: Wakeup Push Button
- *     @arg BUTTON_TAMPER: Tamper Push Button
- *     @arg BUTTON_KEY: Key Push Button
  *     @arg BUTTON_RIGHT: Joystick Right Push Button
  *     @arg BUTTON_LEFT: Joystick Left Push Button
- *     @arg BUTTON_UP: Joystick Up Push Button
- *     @arg BUTTON_DOWN: Joystick Down Push Button
- *     @arg BUTTON_SEL: Joystick Sel Push Button
  * @retval The Button GPIO pin value.
  */
 uint32_t

@@ -85,6 +85,7 @@ static portTASK_FUNCTION( vBoardTestTask, pvParameters )
         /* Regular execution */
         else
         {
+          
             /* Block until next cycle */
             vTaskDelay ( BOARDTEST_UPDATE_PERIOD);
         }
